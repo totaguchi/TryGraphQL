@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "23DD8CB1-1B1F-455D-A3C1-B798296330C0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6398A9AF-6140-45F2-9BDA-30841E10A8A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/AllFilms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6398A9AF-6140-45F2-9BDA-30841E10A8A0 - bec472ae3ee305ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TryGraphQL.AllFilms.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/AllFilms.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+               <Location
+                  uuid = "6398A9AF-6140-45F2-9BDA-30841E10A8A0 - 70134227082d92ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;TryGraphQLSchema.AllFilmsQuery.Data&gt;, Swift.Error&gt;) -&gt; () in TryGraphQL.AllFilms.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/AllFilms.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B9604E-181E-440B-B010-3EEE5A3F0219"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/AllFilms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05B9604E-181E-440B-B010-3EEE5A3F0219 - 70134227082d910b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;TryGraphQLSchema.AllFilmsQuery.Data&gt;, Swift.Error&gt;) -&gt; () in TryGraphQL.AllFilms.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/AllFilms.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+               <Location
+                  uuid = "05B9604E-181E-440B-B010-3EEE5A3F0219 - 70134227082d910b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;TryGraphQLSchema.AllFilmsQuery.Data&gt;, Swift.Error&gt;) -&gt; () in TryGraphQL.AllFilms.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/AllFilms.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F6E1C6A-1C60-4253-9B67-C6AA3E0FC978"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/AllFilms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4608EB2C-A143-48A1-B86A-3E96B755EF9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/AllFilms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EBEC415-D24C-4DD9-A611-4E8C67D2288E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/Launches.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EBEC415-D24C-4DD9-A611-4E8C67D2288E - 85844c2302aa9350"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;RocketReserverAPI.LaunchListQuery.Data&gt;, Swift.Error&gt;) -&gt; () in TryGraphQL.Launches.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/Launches.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "5EBEC415-D24C-4DD9-A611-4E8C67D2288E - 85844c2302aa9350"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;RocketReserverAPI.LaunchListQuery.Data&gt;, Swift.Error&gt;) -&gt; () in TryGraphQL.Launches.featchAllFilms() -&gt; ()"
+                  moduleName = "TryGraphQL.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ttaguchi/workspace/Xcode/TryGraphQL/TryGraphQL/Model/Launches.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99B816F1-4C89-4123-9746-F02183C35697"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryGraphQL/Model/Launches.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "featchAllFilms()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
