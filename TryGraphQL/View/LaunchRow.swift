@@ -30,8 +30,10 @@ struct LaunchRow: View {
             }
             VStack(alignment: .leading) {
                 Text("Mission Name")
+                    .foregroundStyle(.black)
                 Text(launch.site ?? "Launch Site")
                     .font(.system(size: 14))
+                    .foregroundStyle(.black)
             }
         }
     }

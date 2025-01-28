@@ -12,6 +12,8 @@
 		B67108372D2AE52F001CF98C /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B67108362D2AE52F001CF98C /* RocketReserverAPI */; };
 		B671086B2D2B7DCA001CF98C /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B671086A2D2B7DCA001CF98C /* RocketReserverAPI */; };
 		B67108752D2B86D0001CF98C /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B67108742D2B86D0001CF98C /* RocketReserverAPI */; };
+		B671087F2D2C3256001CF98C /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B671087E2D2C3256001CF98C /* RocketReserverAPI */; };
+		B67108822D2C3533001CF98C /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B67108812D2C3533001CF98C /* KeychainSwift */; };
 		B6880E722D263417000CE7DC /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B6880E712D263417000CE7DC /* Apollo */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +66,10 @@
 				B671086B2D2B7DCA001CF98C /* RocketReserverAPI in Frameworks */,
 				B67108342D2AE2B3001CF98C /* SDWebImageSwiftUI in Frameworks */,
 				B67108372D2AE52F001CF98C /* RocketReserverAPI in Frameworks */,
+				B671087F2D2C3256001CF98C /* RocketReserverAPI in Frameworks */,
 				B67108752D2B86D0001CF98C /* RocketReserverAPI in Frameworks */,
 				B671082D2D29835A001CF98C /* RocketReserverAPI in Frameworks */,
+				B67108822D2C3533001CF98C /* KeychainSwift in Frameworks */,
 				B6880E722D263417000CE7DC /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +137,8 @@
 				B67108362D2AE52F001CF98C /* RocketReserverAPI */,
 				B671086A2D2B7DCA001CF98C /* RocketReserverAPI */,
 				B67108742D2B86D0001CF98C /* RocketReserverAPI */,
+				B671087E2D2C3256001CF98C /* RocketReserverAPI */,
+				B67108812D2C3533001CF98C /* KeychainSwift */,
 			);
 			productName = TryGraphQL;
 			productReference = B6880E412D2632C1000CE7DC /* TryGraphQL.app */;
@@ -219,7 +225,8 @@
 			packageReferences = (
 				B6880E702D263417000CE7DC /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				B67108322D2AE2B3001CF98C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				B67108732D2B86D0001CF98C /* XCLocalSwiftPackageReference "RocketReserverAPI" */,
+				B671087D2D2C3256001CF98C /* XCLocalSwiftPackageReference "RocketReserverAPI" */,
+				B67108802D2C3533001CF98C /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6880E422D2632C1000CE7DC /* Products */;
@@ -580,7 +587,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		B67108732D2B86D0001CF98C /* XCLocalSwiftPackageReference "RocketReserverAPI" */ = {
+		B671087D2D2C3256001CF98C /* XCLocalSwiftPackageReference "RocketReserverAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = RocketReserverAPI;
 		};
@@ -593,6 +600,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 3.1.3;
+			};
+		};
+		B67108802D2C3533001CF98C /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
 			};
 		};
 		B6880E702D263417000CE7DC /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
@@ -626,6 +641,15 @@
 		B67108742D2B86D0001CF98C /* RocketReserverAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RocketReserverAPI;
+		};
+		B671087E2D2C3256001CF98C /* RocketReserverAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RocketReserverAPI;
+		};
+		B67108812D2C3533001CF98C /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B67108802D2C3533001CF98C /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
 		};
 		B6880E712D263417000CE7DC /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;

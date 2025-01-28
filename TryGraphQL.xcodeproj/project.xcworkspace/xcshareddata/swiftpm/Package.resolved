@@ -1,5 +1,5 @@
 {
-  "originHash" : "f0bcea93dc1b105e189ab14f3da4322ba8d296888b13af7244927ad49d528ed6",
+  "originHash" : "b82e50c9c7f747157221b09b308dc155580458800db9b1c104c46ee25077a779",
   "pins" : [
     {
       "identity" : "apollo-ios",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "c3f48d45ec1300bc95243bf19f67284f9dc0d14a",
         "version" : "1.15.3"
+      }
+    },
+    {
+      "identity" : "keychain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/keychain-swift.git",
+      "state" : {
+        "revision" : "5e1b02b6a9dac2a759a1d5dbc175c86bd192a608",
+        "version" : "24.0.0"
       }
     },
     {

@@ -13,6 +13,11 @@ import Apollo
     var launches = [LaunchListQuery.Data.Launches.Launch]()
     var lastConnection: LaunchListQuery.Data.Launches?
     var activeRequest: Cancellable?
+    var isSearching: Bool = false
+    var searchText: String = ""
+    var displayLaunches: [LaunchListQuery.Data.Launches.Launch] {
+        return isSearching ? launches.filter { $0.site?.contains(searchText) ?? false } : launches
+    }
     
     private func loadMoreLaunches(from cursor: String?) {
         self.activeRequest =  GraphQLClient.shared.apollo.fetch(query: LaunchListQuery(cursor: cursor ?? nil)) { [weak self] result in
@@ -25,7 +30,7 @@ import Apollo
               if let launchConnection = graphQLResult.data?.launches {
                   self.lastConnection = launchConnection
                   self.launches.append(contentsOf: launchConnection.launches.compactMap({ $0 }))
-                    print(launches) // Luke Skywalker
+                    print(launches)
               } else if let errors = graphQLResult.errors {
                 // GraphQL errors
                 print(errors)

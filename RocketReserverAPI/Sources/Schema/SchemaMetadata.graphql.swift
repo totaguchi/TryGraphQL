@@ -23,8 +23,10 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
     case "Launch": return RocketReserverAPI.Objects.Launch
     case "LaunchConnection": return RocketReserverAPI.Objects.LaunchConnection
     case "Mission": return RocketReserverAPI.Objects.Mission
+    case "Mutation": return RocketReserverAPI.Objects.Mutation
     case "Query": return RocketReserverAPI.Objects.Query
     case "Rocket": return RocketReserverAPI.Objects.Rocket
+    case "User": return RocketReserverAPI.Objects.User
     default: return nil
     }
   }
